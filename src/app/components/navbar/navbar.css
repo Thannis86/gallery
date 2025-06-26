@@ -1,0 +1,24 @@
+#navBar {
+  display: grid;
+  grid-area: 1 / 1 / 2 / 6;
+  grid-template-columns: 1fr 2fr 6fr 2fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+#logoFiller {
+  display: flex;
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+#navSep {
+  display: flex;
+  grid-area: 1 / 1 / 2 / 6;
+  align-self: flex-end;
+}
+
+#dropDown {
+  display: flex;
+  grid-area: 1 / 5 / 2 / 6;
+  justify-content: center;
+  align-items: center;
+}
