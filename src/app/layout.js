@@ -20,7 +20,7 @@ export const metadata = {
 import "@radix-ui/themes/styles.css";
 import { Theme, ThemePanel } from "@radix-ui/themes";
 
-import NavBar from "./components/navbar/navbar";
+// import NavBar from "../components/navbar/navbar";
 
 export default function RootLayout({ children }) {
   return (
@@ -29,8 +29,8 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Theme accentColor="violet" radius="small">
-          <NavBar />
-          <ThemePanel />
+          {/* <NavBar /> */}
+          {/* <ThemePanel /> */}
           {children}
         </Theme>
       </body>
